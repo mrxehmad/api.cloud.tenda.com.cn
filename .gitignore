@@ -6,3 +6,4 @@ known_devices.json
 device_database.json
 debug.log
 blacklisted.json
+.env
