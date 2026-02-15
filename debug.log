@@ -1,9 +1,0 @@
-[DEBUG] process_mac.php started with MAC: 00:15:5d:30:9e:db
-[DEBUG] Running as user: dac
-[DEBUG] Process user ID: 1000
-[DEBUG] Process group ID: 1000
-[DEBUG] Processing MAC: 00:15:5d:30:9e:db
-[DEBUG] Device already added to Pi-hole, less than 24h old - no scan needed
-[DEBUG] Sending Telegram message to chat: 1459867608
-[DEBUG] Telegram response: {"ok":true,"result":{"message_id":524,"from":{"id":6244711982,"is_bot":true,"first_name":"Enosky Wlliy","username":"enosky_bot"},"chat":{"id":1459867608,"first_name":"STOK","username":"xehmi","type":"private"},"date":1752205497,"text":"\u2139\ufe0f *Device Already Blacklisted in Pi-hole*\n\n\ud83d\udcf1 MAC: `00:15:5d:30:9e:db`\n\ud83c\udf10 IP: `172.30.0.1`\n\ud83d\udd50 Time: 2025-07-11 08:44:58\n\nThis device was already in the Pi-hole blacklist."}}
-[DEBUG] process_mac.php completed
