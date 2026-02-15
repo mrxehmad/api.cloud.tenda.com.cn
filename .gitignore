@@ -2,7 +2,6 @@ command
 phpinfo.php
 php.ini
 test*
-known_devices.json
 device_database.json
 debug.log
 blacklisted.json
