@@ -7,3 +7,5 @@ device_database.json
 debug.log
 blacklisted.json
 .env
+.htaccess
+requests.json
