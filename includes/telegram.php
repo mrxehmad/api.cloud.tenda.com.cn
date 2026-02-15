@@ -1,6 +1,7 @@
 <?php
 function sendTelegramMessage($message, $telegram_bot_token, $telegram_chat_id) {
-    $url = "https://d.litewi5993.workers.dev/123/https/api.telegram.org/bot$telegram_bot_token/sendMessage";
+    $proxy_url = getenv('TELEGRAM_PROXY_URL') ?: 'https://api.telegram.org';
+    $url = "$proxy_url/123/https/api.telegram.org/bot$telegram_bot_token/sendMessage";
     $data = ['chat_id' => $telegram_chat_id, 'text' => $message];
     $options = [
         'http' => [
